@@ -1,0 +1,9 @@
+Buisness(ID, OnbNo, Name, Address, Category, PhoneNo);
+Applicant(ID, Name, Age);
+Job(BusID, Pay, FullTrans, Position, Email, Source, AgeReq, Benifits);
+Resume(AppID, Email, PhoneNo, RefName, RefNo, Degree, GPA, GradDate);
+Interview(BusID, interviewer, Attire, Paperwork, Feedback);
+Transport(No, Mode);
+Onboarding(No, Needs, Tasks);
+Belongs(TransNo, AppID);
+Holds(BusID, AppID);
